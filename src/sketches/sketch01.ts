@@ -1,4 +1,4 @@
-const sketch01 = (p) => {    
+const sketch01 = (p:any) => {    
     p.setup = () =>{
 
     }
