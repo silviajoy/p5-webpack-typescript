@@ -1,13 +1,4 @@
 import * as p5 from 'p5'
+import * as sketch from './sketches/sketches'
 
-let sketch = (p) => {    
-    p.setup = () =>{
-
-    }
-
-    p.draw = () =>{
-        p.ellipse(50, 50, 80, 80);
-    }
-}
-
-const P5 = new p5(sketch)
+const P5 = new p5(sketch.s03)
