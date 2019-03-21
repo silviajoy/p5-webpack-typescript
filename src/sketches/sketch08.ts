@@ -18,6 +18,7 @@ const sketch = (p:any) => {
     p.draw = () =>{
         p.background(0)
         p.ellipse(xPos, yPos, dc, dc)
+
         if(xPos > p.width-dc/2) {
             forwardX = false
         }
@@ -30,9 +31,9 @@ const sketch = (p:any) => {
         if (yPos < dc/2) {
             forwardY = true
         }
+        
         if(forwardX) {
             xPos+=speed
-
         } else {
             xPos-=speed
         }

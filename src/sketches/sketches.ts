@@ -6,3 +6,5 @@ export { default as s05 } from "./sketch05";
 export { default as s06 } from "./sketch06";
 export { default as s07 } from "./sketch07";
 export { default as s08 } from "./sketch08";
+export { default as s09 } from "./sketch09";
+export { default as s10 } from "./sketch10";
