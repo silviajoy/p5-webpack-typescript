@@ -11,6 +11,7 @@ A.A. 2018-2019
 
 ### Istruzioni
 `npm install`
+
 `npm run dev` 
 
 il contenuto sarà servito all'indirizzo http://localhost:8000
