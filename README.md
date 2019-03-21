@@ -3,9 +3,11 @@ Università degli studi di Udine
 A.A. 2018-2019
 
 ### Tecnologie
-*TypeScript*
-*Webpack*
-*p5.js*
+**TypeScript**
+
+**Webpack**
+
+**p5.js**
 
 ### Istruzioni
 `npm install`
