@@ -4,15 +4,15 @@ const sketch = (p:any) => {
     }
 
     p.draw = () =>{
-        const cx = p.random(0, p.width+1)
-        const cy = p.random(0, p.height+1)
-        const w = p.random(1,100)
+        const cx = p.random(p.width)
+        const cy = p.random(p.height)
+        const w = p.random(50,100)
 
-        const r = p.random(0,256)
-        const g = p.random(0,256)
-        const b = p.random(0,256)
+        const r = p.random(255)
+        const g = p.random(256)
+        const b = p.random(256)
 
-        p.strokeWeight(0)
+        p.noStroke(0)
         p.fill(r,g,b)
 
         p.ellipse(cx, cy, w, w)
